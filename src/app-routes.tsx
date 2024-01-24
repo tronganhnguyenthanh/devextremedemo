@@ -1,14 +1,14 @@
-import {HomePage} from './pages';
 import {withNavigationWatcher} from './contexts/navigation';
 import Posts from './pages/posts/posts';
+import CustomizePosts from './pages/customizePosts/CustomizePosts';
 const routes = [
   {
-    path:"/home",
-    element:HomePage
+    path:"/plain/posts",
+    element:Posts
   },
   {
-    path:"/posts",
-    element:Posts
+    path:"/customize/posts",
+    element:CustomizePosts
   }
 ];
 
