@@ -3,11 +3,11 @@ import Posts from './pages/posts/posts';
 import CustomizePosts from './pages/customizePosts/CustomizePosts';
 const routes = [
   {
-    path:"/plain/posts",
+    path:"/posts",
     element:Posts
   },
   {
-    path:"/customize/posts",
+    path:"/customize/users",
     element:CustomizePosts
   }
 ];

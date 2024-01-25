@@ -1,12 +1,12 @@
 export const navigation = [
   {
-    text:"Plain Posts",
-    path:"/plain/posts",
+    text:"Posts",
+    path:"/posts",
     icon:"folder"
   },
   {
-    text:"Customize Posts",
-    path:"/customize/posts",
+    text:"Users",
+    path:"/customize/users",
     icon:"folder"
   }
 ];
