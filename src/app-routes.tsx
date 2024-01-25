@@ -1,6 +1,7 @@
 import {withNavigationWatcher} from './contexts/navigation';
 import Posts from './pages/posts/posts';
 import CustomizePosts from './pages/customizePosts/CustomizePosts';
+import Candidates from './pages/candidates/Candidates';
 const routes = [
   {
     path:"/posts",
@@ -10,6 +11,10 @@ const routes = [
     path:"/users",
     element:CustomizePosts
   },
+  {
+    path:"/candidates/list",
+    element:Candidates
+  }
 ];
 
 export default routes.map(route => {

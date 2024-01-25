@@ -8,5 +8,10 @@ export const navigation = [
     text:"Users",
     path:"/users",
     icon:"user"
+  },
+  {
+    text:"Candidates",
+    path:"/candidates/list",
+    icon:"message"
   }
 ];
