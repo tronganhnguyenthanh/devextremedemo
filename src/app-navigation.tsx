@@ -6,7 +6,7 @@ export const navigation = [
   },
   {
     text:"Users",
-    path:"/customize/users",
-    icon:"folder"
+    path:"/users",
+    icon:"user"
   }
 ];

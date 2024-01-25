@@ -7,9 +7,9 @@ const routes = [
     element:Posts
   },
   {
-    path:"/customize/users",
+    path:"/users",
     element:CustomizePosts
-  }
+  },
 ];
 
 export default routes.map(route => {
