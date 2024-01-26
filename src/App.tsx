@@ -31,9 +31,6 @@ export default function Root() {
       <AuthProvider>
         <NavigationProvider>
           <div className={`app ${screenSizeClass}`}>
-            {/* <Routes>
-              <Route path="/post/detail/:id" element={<PostDetail/>}/>
-            </Routes> */}
             <App/>
           </div>
         </NavigationProvider>
