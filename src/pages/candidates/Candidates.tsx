@@ -30,7 +30,7 @@ const Candidates = () => {
   return (
    <div>
      <h2 className={"content-block"}>Candidate list</h2>
-     <DataGrid dataSource={store}>
+     <DataGrid dataSource={store} className="custom-post-padding">
        <Column dataField="objectId" alignment="center"></Column>
        <Column dataField="Firstname" alignment="center"></Column>
        <Column dataField="Lastname" alignment="center"></Column>

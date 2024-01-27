@@ -21,10 +21,9 @@ export default function Content() {
         />
       </Routes>
       <Footer>
-        Copyright © 2011-{new Date().getFullYear()} {appInfo.title} Inc.
+        This web app is built by Trọng Anh@{appInfo.title} 
         <br />
-        All trademarks or registered trademarks are property of their
-        respective owners.
+        This is my secured software and just used for internal only
       </Footer>
     </SideNavBarLayout>
   );

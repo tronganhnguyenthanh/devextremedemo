@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react"
-import { useNavigate, useParams } from "react-router-dom"
+import React, {useEffect, useState} from "react"
+import {useNavigate, useParams} from "react-router-dom"
 import DetailPost from "../../types/PostDetail"
 import { Button, LoadIndicator } from "devextreme-react"
 const PostDetail = () => {
-  const { id } = useParams()
+  const {id} = useParams()
   const [isLoading, setIsLoading] = useState(true)
   const [postDetail, setPostDetail] = useState<DetailPost>({} as DetailPost)
   const navigate = useNavigate()

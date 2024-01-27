@@ -1,9 +1,10 @@
 import {withNavigationWatcher} from './contexts/navigation';
 import Posts from './pages/posts/posts';
-import CustomizePosts from './pages/customizePosts/CustomizePosts';
 import Candidates from './pages/candidates/Candidates';
 import {HomePage} from './pages';
 import PostDetail from './pages/postDetail/PostDetail';
+import Users from './pages/users/Users';
+import UserDetail from './pages/userDetail/UserDetail';
 const routes = [
   {
     path:"/home",
@@ -19,7 +20,11 @@ const routes = [
   },
   {
     path:"/users",
-    element:CustomizePosts
+    element:Users
+  },
+  {
+    path:"/users/detail/:id",
+    element:UserDetail
   },
   {
     path:"/candidates/list",
