@@ -1,22 +1,21 @@
 import {withNavigationWatcher} from './contexts/navigation';
-import Posts from './pages/posts/posts';
-import Candidates from './pages/candidates/Candidates';
 import {HomePage} from './pages';
-import PostDetail from './pages/postDetail/PostDetail';
 import Users from './pages/users/Users';
 import UserDetail from './pages/userDetail/UserDetail';
+import Products from './pages/products/products';
+import ProductDetail from './pages/productDetail/ProductDetail';
 const routes = [
   {
     path:"/home",
     element:HomePage
   },
   {
-    path:"/posts",
-    element:Posts
+    path:"/product",
+    element:Products
   },
   {
-    path:"/post/detail/:id",
-    element:PostDetail
+    path:"/product/detail/:id",
+    element:ProductDetail
   },
   {
     path:"/users",
@@ -25,10 +24,6 @@ const routes = [
   {
     path:"/users/detail/:id",
     element:UserDetail
-  },
-  {
-    path:"/candidates/list",
-    element:Candidates
   }
 ];
 

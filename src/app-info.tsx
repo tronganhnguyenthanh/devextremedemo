@@ -1,5 +1,5 @@
 const appInfo = {
- title: "Post list"
+ title:"Product list"
 };
 export default appInfo;
 
