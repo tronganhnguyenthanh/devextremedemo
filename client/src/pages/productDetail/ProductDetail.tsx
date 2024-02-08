@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react"
-import {useNavigate, useParams} from "react-router-dom"
+import {Link, useNavigate, useParams} from "react-router-dom"
 import {Button, LoadIndicator} from "devextreme-react"
 import DetailProduct from "../../types/ProductDetail"
 const ProductDetail = () => {
@@ -21,6 +21,11 @@ const ProductDetail = () => {
      setIsLoading(!isLoading)
     }
   }
+
+  const directionMap = () => {
+   navigate("https://www.google.com/maps")
+  }
+   
   return (
     <React.Fragment>
       {
@@ -49,7 +54,8 @@ const ProductDetail = () => {
                    </svg>
                 </Button>
               </div>
-              <Button type="success" className="btn-add-to-cart">Make an appointment</Button>
+              <Link className="link-add-to-cart" to={"tel:0961847448"}>Contact shop</Link>
+              <Link className="btn-direction" to="https://www.google.com/maps">Direction</Link>
             </div>
           </div>
         </>
